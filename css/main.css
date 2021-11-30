@@ -1,0 +1,109 @@
+@font-face {
+    font-family: apple;
+    src: url(fonts/apple.tff);
+  }
+  
+  @font-face {
+    font-family: heavy;
+    src: url(fonts/heavy.tff);
+  }
+  
+  body,
+  html {
+    margin: 0px;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #212120;
+    color: #fff;
+    overflow-x: hidden;
+  }
+   nav {
+    background-color: #141414;
+    width:100vw;
+    height: 80px;
+  }
+    h1{
+    font-size: 25px;
+    margin-left: 85px;
+    margin-top: -60px;
+  }
+  .logo {
+    padding: 1vh 1vw;
+    text-align: center;
+  }
+    .logo img{
+        margin-left: 5px;
+        height: 65px;
+        width: 65px;
+        border-radius: 50px;
+        float: left;
+    }
+    @supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .na a:hover {
+  color: #000;
+  }
+  .na a {
+  font-size: 37px;
+  text-decoration:none;
+  color: #FFF;
+  opacity: 100;
+  }
+  .na h23 {
+  color: #242628;
+  }
+  .taskbar {
+  opacity: 0;
+  }
+  .na {
+    font-family: Framework7 Icons;
+    position: static;
+    bottom: 0px;
+    left: 13.5%;
+    z-index: 99;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 70%;
+    opacity: 50;
+    background: #242628;
+    border-radius: 20px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
+.backbox{
+  width: 93%;
+  height: 85px;
+  background-color: #262625;
+  border-radius: 10px;
+}
+.backbox img{
+  width: 85px;
+  height: 85px;
+  border-radius: 10px;
+  float: left;
+}
+.backbox h1{
+  color: #FFF;
+  font-size: 20px;
+  padding: 30px;
+}
+.backbox btn{
+  height: 10px;
+  width: 10px;
+  background-color: black;
+}
+.backbox a{
+  width:55px;
+  height: 20px;
+  padding:5px;
+  border-radius:50px;
+  float: right;
+  background-color: #007AFF;
+  color: #FFF;
+  margin-top: 24px;
+  margin-right: 10px;
+}
