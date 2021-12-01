@@ -1,0 +1,90 @@
+@font-face {
+    font-family: apple;
+    src: url(fonts/apple.tff);
+  }
+  
+  @font-face {
+    font-family: heavy;
+    src: url(fonts/heavy.tff);
+  }
+  
+  body,
+  html {
+    margin: 0px;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #212120;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  .bottombtn{
+      width:100vw;
+      height: 70px;
+      background-color: #262625;
+      position: fixed;
+      bottom: 0%;
+  }
+  .bottombtn h1{
+      color: #fff;
+      font-weight: lighter;
+      font-size: 30px;
+  }
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }  
+.card {
+    flex-shrink: 0;
+    width: 280px;
+    height: 155px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .card img {
+    width: 280px;
+    border-radius: 25px;
+    height: 150px;
+  }
+  
+  @supports (
+    (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+  ) {
+    .blur-bg {
+      position: relative;
+      bottom: 60px;
+      padding: 5px;
+      width: 270px;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .backbx{
+      width: 93%;
+      height: 350px;
+      background-color: #262625;
+      border-radius: 10px;
+  }
+  .backbx h1{
+      color: #fff;
+      font-weight: lighter;
+      font-size: 30px;
+      padding: 10px;
+  }
+  .backbx h2{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+}
