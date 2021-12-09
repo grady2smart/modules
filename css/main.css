@@ -98,6 +98,7 @@
   background-color: black;
 }
 .backbox a{
+  text-decoration: none;
   width:55px;
   height: 20px;
   padding:5px;
@@ -107,4 +108,38 @@
   color: #FFF;
   margin-top: 24px;
   margin-right: 10px;
+}
+.backbox a:hover{
+  text-decoration: none;
+  width:55px;
+  height: 20px;
+  padding:5px;
+  border-radius:50px;
+  float: right;
+  background-color: #1566bf;
+  color: #FFF;
+  margin-top: 24px;
+  margin-right: 10px;
+}
+.made{
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+}
+.made h1{
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  margin-right: 45px;
+}
+.made h1:hover{
+  text-align: center;
+  color: #c4c8cc;
+  font-size: 15px;
+  margin-right: 45px;
+}
+.made img{
+  width: 20px;
+  margin-right: 120px;
+  margin-bottom: 40px;
 }
