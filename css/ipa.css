@@ -24,6 +24,13 @@
       position: fixed;
       bottom: 0%;
   }
+  .bottombtn:hover{
+    width:100vw;
+    height: 70px;
+    background-color: #242423;
+    position: fixed;
+    bottom: 0%;
+  }
   .bottombtn h1{
       color: #fff;
       font-weight: lighter;
@@ -88,3 +95,25 @@
     font-weight: lighter;
     font-size: 20px;
 }
+  .card2{
+    width: 280px;
+    height: 200;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #262625;
+    border-radius: 10px;
+}
+  .card2 img{
+    width: 280px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card2 h1{
+    font-size: 17px;
+    font-weight: 30px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #e8effa;
+  }
