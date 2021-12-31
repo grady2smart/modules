@@ -74,72 +74,74 @@
     backdrop-filter: saturate(180%) blur(20px);
   }
 }
-.backbox{
-  width: 93%;
-  height: 85px;
-  background-color: #262625;
-  border-radius: 10px;
-}
-.backbox img{
-  width: 85px;
-  height: 85px;
-  border-radius: 10px;
-  float: left;
-}
-.backbox h1{
-  color: #FFF;
-  font-size: 20px;
-  padding: 30px;
-  font-weight: lighter;
-}
-.backbox btn{
-  height: 10px;
-  width: 10px;
-  background-color: black;
-}
-.backbox a{
-  text-decoration: none;
-  width:55px;
-  height: 20px;
-  padding:5px;
-  border-radius:50px;
-  float: right;
-  background-color: #007AFF;
-  color: #FFF;
-  margin-top: 24px;
-  margin-right: 10px;
-}
-.backbox a:hover{
-  text-decoration: none;
-  width:55px;
-  height: 20px;
-  padding:5px;
-  border-radius:50px;
-  float: right;
-  background-color: #1566bf;
-  color: #FFF;
-  margin-top: 24px;
-  margin-right: 10px;
-}
-.made{
-  text-align: center;
-  color: #FFF;
-  font-size: 15px;
-}
-.made h1{
-  text-align: center;
-  color: #FFF;
-  font-size: 15px;
-  margin-right: 45px;
-}
-.made h1:hover{
-  text-align: center;
-  color: #c4c8cc;
-  font-size: 15px;
-  margin-right: 45px;
-}
-.made img{
-  width: 20px;
-  margin-right: 120px;
-  margin-bottom: 40px;
-}
+* {
+    box-sizing:border-box;
+    padding: 0px;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 95px;
+    border-radius: 10px;
+  }
+  .box{
+    padding: 0px;
+    width: 100%;
+    height: 85px;
+    background-color: #262625;
+    border-radius: 10px;
+  }
+  .box img{
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    float: left;
+  }
+  .box h1{
+    margin-top: 0px;
+    color: #FFF;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: lighter;
+  }
+  .box a{
+    text-decoration: none;
+    width:65px;
+    height: 30px;
+    padding:5px;
+    border-radius:50px;
+    float: right;
+    background-color: #007AFF;
+    color: #FFF;
+    margin-top: 24px;
+    margin-right: 10px;
+  }
+  .box a:hover{
+    text-decoration: none;
+    width:65px;
+    height: 30px;
+    padding:5px;
+    border-radius:50px;
+    float: right;
+    background-color: #1566bf;
+    color: #FFF;
+    margin-top: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
